@@ -41,6 +41,11 @@ main img {
     box-shadow: 0 0 30px gray;
 }
 
+aside img{
+    width: 200px;
+    height: auto;
+}
+
 p {
     padding: 0;
 }
