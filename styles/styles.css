@@ -1,12 +1,22 @@
+/* Color Pallette url: https://coolors.co/8daa91-30323d-4d5061-5cabff-cdd1c4 */
+
 :root {
     --border-color: black;
-    --secondary-color: darkblue;
+    --primary-color: #30323D;
+    --secondary-color: #4D5061;
+    --accent1-color: #CDD1C4;
+    --accent2-color: #5CABFF;
+    --heading-font: 400;
+    --text-font: 300;
+
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Lato", serif;
+    font-weight: 300;
 }
 
 nav {
@@ -37,8 +47,10 @@ footer {
     text-align: center;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     color: var(--secondary-color);
+    font-family: "Lato", serif;
+    font-weight: var(--heading-font);
 }
 
 main img {
