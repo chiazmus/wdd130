@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Our contacts page">
+    <meta name="author" content="Andrew Burnah">
+    <title>Sink Oar Swim Rafting Contact Us</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/rafting-logo.png" alt="rafting-logo">
+        <nav>
+            <a href="index.html">index.html</a>
+            <a href="about.html">about.html</a>
+            <a href="trips.html">trips.html</a>
+            <a href="contact.html">contact.html</a>
+        </nav>
+    </header>
+    <main>
+        <div class="contact-header">
+            <h1>Contact Us</h1>
+            <div class="employee-profiles">
+                <figure><img src="images/profile-1.webp" width="64px" alt="profile-1">
+                <figcaption>Juan</figcaption>
+                </figure>
+                <figure><img src="images/profile-2.webp" width="64px" alt="profile-2">
+                <figcaption>Paco</figcaption>
+                </figure>
+                <figure><img src="images/profile-3.webp" width="64px" alt="profile-3">
+                <figcaption>Pedro</figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="contact-container">
+            <section class="company-information">
+                <ul>
+                    <li>127 Deadman Falls Drive, Vasamorir, CA 92407</li>
+                    <li>1-800-227-1915</li>
+                    <li>contactus@sinkoarswimrafting.org</li>
+                </ul>
+            </section>
+            <form class="user-comments">
+                <div class="contact-info">
+                    <label for="username">Name</label>
+                    <input type="text" id="username" name="username">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div class="purpose-of-inquiry">
+                    <label for="purpose">Purpose of Inquiry:</label>
+                    <div class="label-pair">
+                        <label for="general-inquiry">General Inquiry</label>
+                        <input type="radio" name="purpose" id="general-inquiry" value="general-inquiry">
+                    </div>
+                    <div class="label-pair">
+                        <label for="reservation-question">Reservation Question</label>
+                        <input type="radio" name="purpose" id="reservation-question" value="reservation-question">
+                    </div>
+                    <div class="label-pair">
+                        <label for="website-suggestion">website-suggestion</label>
+                        <input type="radio" name="purpose" id="website-suggestion" value="website-suggestion">
+                    </div>
+                </div>
+                <div class="comment">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message">Insert your message here and we'll get back to you soon!</textarea>
+                </div>
+                <div class="subscription">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" name="subscribe" id="subscribe">
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1871.772522065572!2d175.78472252088827!3d-40.31187609716112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2snz!4v1738977661796!5m2!1sen!2snz" width="90%" height="80%" style="border:1px solid black; margin: 5%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2025 • Sink Oar Swim Rafting™ • Andrew Burnah • <a href="https://app.moqups.com/2bZR2sxdLMLW52Sx92pzuNkX7wb27CmN/view/page/ad64222d5">wireframe</a></p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com"><img src="images/facebook.webp" alt="facebook"></a>
+            <a href="https://youtube.com"><img src="images/youtube.webp" alt="youtube"></a>
+            <a href="https://discord.com"><img src="images/discord.webp" alt="discord"></a>
+        </nav>
+    </footer>
+</body>
+</html>
